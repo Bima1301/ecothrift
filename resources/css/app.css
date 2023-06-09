@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-pagination-bullet-active {
+    background-color: #FE9800 !important;
+    scale: 1.5;
+}
+
+.swiper-pagination-bullet {
+    scale: 1.5;
+    opacity: 1;
+    background: white;
+    /* background-color: white; */
+}
+
+.counter--output::-webkit-outer-spin-button,
+.counter--output::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.counter--output[type=number] {
+    -moz-appearance: textfield;
+}
